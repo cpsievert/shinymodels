@@ -108,7 +108,7 @@ shiny_models.reg_shiny_data <-
         plot_numeric_res_factorcol(preds_dat(), x$y_name, input$factor_value_col)
       })
       observeEvent(input$p1Button, ({
-        updateCollapse(
+        shinyBS::updateCollapse(
           session,
           "collapseExample",
           open = c(

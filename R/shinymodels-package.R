@@ -12,6 +12,7 @@ NULL
 #' @importFrom stats reorder
 #' @importFrom broom augment
 #' @import yardstick
+#' @import shinyBS
 #' @import shiny
 #' @import dplyr
 #' @import ggplot2
